@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "service": "api-service",
+  "version": "1.2.3",
+  "dependencies": {
+    "database": {
+      "status": "ok",
+      "latency_ms": 15
+    },
+    "message_queue": {
+      "status": "ok",
+      "queue_size": 100
+    }
+  },
+  "metrics": {
+    "requests_per_minute": 60,
+    "average_response_time_ms": 200,
+    "error_rate": 0.01
+  }
+}
